@@ -325,7 +325,7 @@ button {
     align-items: center;
     gap:8px;
     justify-content: center;
-    margin-bottom: 34px;
+    margin-bottom: 50px;
     
     
 }
@@ -429,8 +429,9 @@ button {
     padding-bottom: 20px;
 }
 
-.contacts-item-blox{
+.contacts-item{
     display: block;
+
 }
 .location{
     font-weight: 400;
@@ -439,7 +440,7 @@ button {
     letter-spacing: 0.03em;
     color: #FFFFFF;
     font-style: normal;
-    padding-bottom: 9px;
+    /* padding-bottom: 9px; */
 
 }
 .location:hover,
@@ -455,8 +456,11 @@ button {
     font-style: normal;
     }
 
-.mail-link-footer{
-    padding-bottom: 9px
+.contacts-item{
+    margin-bottom: 9px
+}
+.contacts-item-phone{
+    margin-bottom: 0px;
 }
 
 .mail-link-footer:hover,
